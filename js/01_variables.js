@@ -17,7 +17,7 @@ producto = true; // Reasignando el valor de la variables
 disponible = true;
 
 var producto1 = "Computadora",
-  disponible = true,
+  disponible1 = true,
   categoria = "Computadoras";
 
 // Reglas como no deben nombrar las variables
