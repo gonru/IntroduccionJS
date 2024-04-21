@@ -20,3 +20,14 @@ console.log(producto.disponible);
 console.log(producto["nombreProducto"]);
 console.log(producto["precio"]);
 console.log(producto["disponible"]);
+
+// Modificar objetos
+
+// Agregar propiedades
+
+producto.imagen = "imagen.jpg";
+console.log(producto.imagen);
+
+// Borrar propiedades
+delete producto.disponible;
+console.log(producto);
